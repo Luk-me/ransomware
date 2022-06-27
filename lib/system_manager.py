@@ -2,6 +2,7 @@
 
 import random,socket,sys,time,os
 import threading
+from ctypes import windll
 
 lock = threading.Lock()
 HOSTS = []
